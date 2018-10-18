@@ -1,2 +1,2 @@
 # Prakerin
-Website Project Prakerin (CI)
+"Prakerin" Project (CI).
