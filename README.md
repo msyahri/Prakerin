@@ -1,1 +1,2 @@
-# prakein msn
+# Prakerin
+"Prakerin" Project (CI).
