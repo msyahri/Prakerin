@@ -76,7 +76,7 @@
             <tr>
                 <td></td>
                 <td><input type="submit" class="btn btn-success" value="Edit">
-        <button class="btn btn-danger" value=""><a href="<?php echo base_url(). 'admin/slider'; ?>" style="color:white">Batal</a></button></td>
+        <button class="btn btn-danger" value=""><a href="<?php echo base_url(). 'administrator/artikel'; ?>" style="color:white">Batal</a></button></td>
 
             </tr>
       <?php } ?>

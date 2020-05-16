@@ -18,7 +18,7 @@
 							<div class="art-header">
 								<a href="#"><h3><?php echo $s->judul_artikel ?> </h3></a>
 								<div class="info">Posted on <?php echo $s->tanggal_posting ?> </div>
-								<div class="info"><b>Kategori <?php echo $s->nama_kategori ?></b> </div>
+								<div class="info"><b>ID Kategori : <?php echo $s->id_kategori_artikel ?></b> </div>
 							</div>
 							<div class="art-content">
 							<img src="<?php echo base_url(). 'frontend/template/images/'?><?php echo $s->foto_artikel ?>" class="img-responsive" width='500'>

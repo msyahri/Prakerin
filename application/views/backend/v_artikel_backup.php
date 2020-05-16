@@ -23,7 +23,7 @@
       
     <table class="table table-striped table-bordered data display nowrap" id="data">
     <h2> DATA ARTIKEL </h2>
-    <a href="<?php echo base_url(). 'administrator/artikel/tambah/';?>"><button class="btn btn-warning">Tambah Struktur Data</button></a>
+    <a href="<?php echo base_url(). 'administrator/artikel/tambah/';?>"><button class="btn btn-warning">Tambah Artikel</button></a>
     <hr>
     <thead>
       <tr>
@@ -33,7 +33,6 @@
         <th>KATEGORI</th>
         <th>SUMMARY</th>
         <th>AKSI</th>
-
       </tr>
     </thead>
     <tbody>
@@ -42,10 +41,10 @@
   foreach($artikel as $s){
   ?>
   <tr>
-  <td><?php echo $no++ ?></td>
+    <td><?php echo $no++ ?></td>
     <td><img src="<?php echo base_url(). 'frontend/template/images/'?><?php echo $s->foto_artikel ?>" width='60' height='60'></td>
     <td><?php echo $s->judul_artikel ?></td>
-    <td><?php echo $s->id_kategori_artikel ?></td>
+    <td><?php echo $s->nama_kategori ?></td>
     <td><?php echo $s->summary ?></td>
     <td>
       <a href="<?php echo base_url(). 'administrator/artikel/edit/'.$s->id; ?>"><button class="btn btn-primary">Edit</button></a>
@@ -74,7 +73,6 @@
       $('.data').DataTable(
         {
           "scrollX": true
-          
         }
       );
   

@@ -48,7 +48,7 @@
 							<div class="item-content">
 								<span><?php echo $s->judul_artikel ?></span>
 								<p><?php echo $s->summary ?></p>
-								<a class="btn" href="<?php echo base_url(). 'berita/detail/'.$s->id; ?>">Selengkapnya</a>
+								<a class="btn" href="<?php echo base_url(). 'artikel/detail/'.$s->id; ?>">Selengkapnya</a>
 							</div>
 						</div>
 					</div>

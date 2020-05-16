@@ -4,7 +4,8 @@ class M_artikel extends CI_Model{
 
   var $tabel = 'tb_artikel';
   function tampil_data(){
-		return $this->db->get('v_artikel');
+    return $this->db->get('tb_artikel');
+    
   }
   
   function tampil_data_featured(){

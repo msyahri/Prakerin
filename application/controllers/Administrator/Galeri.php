@@ -31,6 +31,7 @@ class Galeri extends CI_Controller{
 		$data['title'] = 'Halaman Galeri';
     	$this->load->view('backend/header-admin',$data);
 		$this->load->view('backend/main-header');
+		$this->load->view('backend/v_kategorigaleri');
 		$this->load->view('backend/main-sidebar');
 		$this->load->view('backend/v_galeri_input',$data);
 		$this->load->view('backend/footer-copyright');

@@ -15,11 +15,12 @@ class Artikel extends CI_Controller{
 
   function index(){
 		$data['artikel'] = $this->m_artikel->tampil_data()->result();
-		$data['title'] = 'Halaman artikel';
+		$data['title'] = 'Halaman Kategori';
     	$this->load->view('backend/header-admin',$data);
 		$this->load->view('backend/main-header');
 		$this->load->view('backend/main-sidebar');
 		$this->load->view('backend/v_artikel',$data);
+		$this->load->view('backend/v_kategori',$data);
 		$this->load->view('backend/footer-copyright');
 		$this->load->view('backend/control-sidebar');
 		$this->load->view('backend/footer-admin');
